@@ -8,9 +8,17 @@ Neste Mini Projeto vamos criar uma visualização com gráficos sobre os gastos 
 
 Esse Mini Projeto não possui um template pronto. Isso significa que você deverá começar, do zero, seu projeto Next.js. Entretanto, os dados que alimentarão os gráficos deverão vir da API de Gastos de Senadores, que nós do Codante criamos e preparamos. 
 
+Também vale a pena contextualizar o que são os dados com os quais estamos trabalhando: trata-se das despesas com Cotas para Exercício da Atividade Parlamentar dos Senadores (CEAPS), que basicamente são "reembolsos" de despesas gerais com gabinete e atividade parlamentar. Alguns exemplos incluem assessoria parlamentar (contratação de pessoal para auxiliar em atividades como elaboração de projetos de lei e atendimento à população), material de expediente (compra de materiais de escritório, como papel e computadores), locação de imóveis (aluguel de espaços para escritórios), serviços de comunicação (contratação de internet e telefone), viagens e diárias (despesas com viagens para eventos relacionados ao mandato), e outras despesas (como eventos e divulgação de atividades parlamentares).
+
+## A API utilizada
+
 A documentação da API está em [neste link](https://docs.apis.codante.io/gastos-senadores). 
 
-Também vale a pena contextualizar o que são os dados com os quais estamos trabalhando: trata-se das despesas com Cotas para Exercício da Atividade Parlamentar dos Senadores (CEAPS), que basicamente são "reembolsos" de despesas gerais com gabinete e atividade parlamentar. Alguns exemplos incluem assessoria parlamentar (contratação de pessoal para auxiliar em atividades como elaboração de projetos de lei e atendimento à população), material de expediente (compra de materiais de escritório, como papel e computadores), locação de imóveis (aluguel de espaços para escritórios), serviços de comunicação (contratação de internet e telefone), viagens e diárias (despesas com viagens para eventos relacionados ao mandato), e outras despesas (como eventos e divulgação de atividades parlamentares).
+Nós iremos utilizar, para esse Mini Projeto dois endpoints da API: 
+
+- [Gastos agregados por partido](https://docs.apis.codante.io/gastos-senadores#gastos-agregados-por-partido) (`/summary/by-party`)
+- [Gastos agregados por UF](https://docs.apis.codante.io/gastos-senadores#gastos-agregados-por-uf) (`/summary/by-uf`) 
+
 
 ## 🔨 Requisitos
 

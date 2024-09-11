@@ -12,7 +12,7 @@ Também vale a pena contextualizar o que são os dados com os quais estamos trab
 
 ## A API utilizada
 
-A documentação da API está em [este link](https://docs.apis.codante.io/gastos-senadores).
+A documentação da API está [neste link](https://docs.apis.codante.io/gastos-senadores).
 
 Nós iremos utilizar, para este Mini Projeto, dois endpoints da API:
 

@@ -36,12 +36,6 @@ Também vale a pena contextualizar o que são os dados com os quais estamos trab
 - Crie um seletor que irá trocar o ano dos dados - desde 2020 até 2024
 - Você deverá utilizar a biblioteca *shadcn/charts* para construir seus gráficos
 
-
-> 👀 **Dicas:**
-> - Dica A sobre Req 2.
-> - Dica B sobre Req 2.
-
-
 ## 🔨 Desafio extra para quem quer ir além
 
 Se você quiser mergulhar ainda mais nos dados, dá uma olhada na [documentação](https://docs.apis.codante.io/gastos-senadores) da nossa API. Uma possível - e interessante - implementação de gráficos nestes dados é a criação de um gráfico de pizza que demonstra a divisão das categorias/tipos de despesas.
